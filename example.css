@@ -1,0 +1,25 @@
+/* nav {
+    background-color:rgb(199, 129, 129);;
+    text-align: center;
+   width: 800; height: 35px;
+}
+nav a {
+    color:white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16pt;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+img{
+  transition: transform 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1);
+} */

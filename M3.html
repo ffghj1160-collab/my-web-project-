@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>اللوحات الرقميه</title>
+  <link rel="stylesheet" href="stayl2.css">
+  <img src="./Screenshot_20250916-143109~2.png" width="1200" height="200">
+  <style>
+    body {
+      background: linear-gradient(45deg, #a47b7c, #fff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .top-bar, .bottom-bar {
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      height: 380px;
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    }
+
+    .card .imgBx {
+      height: 200px;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card .imgBx img {
+      max-width: 180px;
+      transition: 0.5s;
+    }
+
+    .card .details {
+      position: absolute;
+      bottom: -100%;
+      width: 100%;
+      text-align: center;
+      background: #fff;
+      transition: 0.5s;
+    }
+
+    .card:hover .details {
+      bottom: 0;
+    }
+
+    .details h4 {
+      color: #e91e63;
+    }
+
+    .size {
+      display: flex;
+      justify-content: center;
+    }
+
+   
+    .footer {
+      width: 100%;
+      background: #eba7a7;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    .footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .footer .social-links {
+      margin-top: 10px;
+    }
+
+    .footer .social-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .footer .social-links a:hover {
+      color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <nav>
+      <a href="index.html"> الصفحة الرئيسيه</a>
+      <a href="M1.html">بورتريه</a>
+      <a href="M2.html">لوحات زيتيه</a>
+      <a href="M3.html">الفن الرقمي</a>
+      <a href="M4.html">اعمال الخيط</a>
+     
+    </nav> 
+  </div>
+ 
+  <div class="cards-container">
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/aaf.jpg" alt="Shoe">
+      </div>
+      <div class="details">
+        <h3>العنوان: مرايا الأرض</h3>
+        <ul type="none"> 
+          <li>"الطبيعة في داخلي</li>
+          <li>لفكرة: الدمج بين ملامح الوجه البشري وعناصر الطبيعة </li>
+          <li>للتعبير عن أن الإنسان جزء من الطبيعة.</li>
+          <li>الألوان: بيج، أخضر، أزرق، برتقالي.</li>
+        </ul> 
+        <h4>$120</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/aaaf.jpg" alt="Shoe">
+      </div>
+      <div class="details">
+        <h3> همس الأزمنة</h3>
+        <ul type="none">
+          <li>الفكرة: رأس حجري قديم يمثل الماضي والحضارة، <br>وحولها عناصر طبيعية مثل الطائر والفراشة ترمز للأمل والتجدد.</li>
+          <li>الألوان: بني، أخضر، أزرق سماوي، لمسات ذهبية.</li>
+        </ul>
+        <h4>$150</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/tt.jpg" alt="Shoe">
+      </div>
+      <div class="details">
+        <h3>العنوان: جمال المستقبل</h3>
+        <ul type="none">
+          <li>"الطيف الداخلي"</li>
+          <li>الفكرة: تمثال كلاسيكي قديم مضاء بألوان النيون،<br> ليعبر عن مزج التاريخ بالفن الرقمي العصري.</li>
+          <li>الألوان: أزرق كهربائي، بنفسجي، وردي فوسفوري.</li>
+        </ul>
+        <h4>$130</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/rr.jpg" alt="Shoe">
+</div>
+      <div class="details">
+        <h3>العنوان: الوعي الميكانيكي</h3>
+        <ul type="none">
+          <li>"عقل الآلة"</li>
+          <li>الفكرة: وجه إنساني مدموج مع تروس وخطوط هندسية، <br>رمز للتداخل بين الذكاء البشري والذكاء الصناعي.</li>
+          <li>الألوان: أسود، أبيض، رمادي، مع لمسات معدنية.</li>
+        </ul>
+        <h4>$110</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/mm.jpg" alt="Shoe">
+      </div>
+      <div class="details">
+        <h3>العنوان: مجرة البحر</h3>
+        <ul type="none">
+          <li>"رحلة ما وراء الواقع"</li>
+          <li>لفكرة: إنسان يجد نفسه في قارب يبحر وسط السماء<br>، رمز للحرية والانطلاق بعيدًا عن حدود الأرض.</li>
+          <li>لألوان: أزرق، سماوي، أبيض.</li>
+        </ul>
+        <h4>$140</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="img/bbb.jpg" alt="Shoe">
+      </div>
+      <div class="details">
+        <h3>العنوان:العالم المتصل</h3>
+        <ul type="none">
+          <li>شبكة العالم الرقمي</li>
+          <li>فكرتها:تعبر عن الترابط العالمي بين البشر عبر الهواتف</li>
+          <li>الوانها:يغلب عليها اللون الازرق بتدرجاته</li>
+        </ul>
+        <h4>$125</h4>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <p>© 2025 ريشة فنان - جميع الحقوق محفوظة</p>
+    <div class="social-links">
+      <a href="#">فيسبوك</a> 
+      <a href="#">انستغرام</a> 
+      <a href="#">تويتر</a>
+      <a href="index5.html">تواصل معنا</a>
+      <a href="mailto:s@>com" title="GO TO email">تواصل عبر البريد</a>
+    </div>
+  </footer>
+
+</body>
+</html>
